@@ -1,0 +1,14 @@
+button {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 17px;
+  background: cyan;
+  cursor: pointer;
+  min-height: 100px;
+}
+
+button:disabled{
+  background: rgb(157, 179, 179);
+  cursor: not-allowed;
+}
